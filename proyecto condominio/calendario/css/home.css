@@ -1,0 +1,104 @@
+#calendar {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 1px #000000
+}
+
+#exampleModal{
+  padding: 10px;
+}
+
+#title{
+  color: #111B54;
+  margin-top: 10px;
+  font-weight: 800;
+  font-family: 'Muli', sans-serif;
+  background: #fff;
+  padding: 8px 30px;
+  box-shadow: 0px 0px 10px 1px #000000 ;
+}
+
+.area {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 150px;
+	min-height: 50px;
+	font-size: 13px;
+	line-height: 18px;
+	vertical-align: top;
+  border: none;
+}
+
+.area2 {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 150px;
+	min-height: 50px;
+	font-size: 13px;
+	line-height: 18px;
+	vertical-align: top;
+  border: none;
+}
+
+.form-control:hover{
+  border:2px solid black;
+}
+
+
+/****************/
+input[type="radio"] {
+  display: none;
+}
+
+
+.form-control:focus{
+  border: none;
+  box-shadow: 0px 0px 0px 2px#000000;
+}
+
+.fc-content{
+  color: #fff !important;
+}
+
+
+
+
+
+#btnCerrar{
+  color:crimson;
+  padding: 5px;
+  background: #8888;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: 600;
+}
+#btnCerrar:hover{
+  cursor: pointer;
+  background-color: #333;
+}
+
+
+
+.circu{
+  padding: 25px;
+  background: #ccc;
+  border-radius: 50px;
+}
+
+#grupoRadio label:hover{
+  cursor: pointer;
+}
+
+.activado label:hover{
+  cursor: pointer;
+}
+
+#grupoRadio input[type="radio"]:checked + label {
+  border: 3px solid #555 !important;  
+}
+
+
+.activado input[type=radio]:checked + label {
+  border: 3px solid #555 !important;  
+}

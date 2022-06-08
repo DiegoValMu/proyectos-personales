@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contenedor {
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+   margin-top: 2%;
+}
+
+.contenedor-boton-cuerpo{
+	margin-top: 40px;
+	margin-left: 15%;
+	width: 210px;
+	height: 80px;
+	display: inline-block;
+
+}
+
+.formulario {
+	background-color:rgb(250, 243, 229);
+	padding: 30px;
+	margin-bottom: 40px;
+}
+
+.formulario .form-group {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="password"],
+.formulario input[type="number"],
+.formulario input[type="date"]{
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+    margin-top: 2%;
+}
+
+.formulario .icono {
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #c8c8c8;
+	display: inline-block;
+	color:#6b6b6b;
+	vertical-align: top;
+    max-height: 48px
+}
+
+.formulario .icono.izquierda {
+    margin-top: 2%;
+	margin-right: 4px;
+	border-radius: 3px 0 0 3px;
+}
+
+.formulario .nombres,
+.formulario .apellidos,
+.formulario .correo,
+.formulario .telefono,
+.formulario .contrasena {
+	width: calc(100% - 52px);
+
+	border-radius: 0 3px 3px 0;
+}
+.formulario .stock,
+.formulario .pcosto,
+.formulario .fcompra,
+.formulario .nombrep{
+	width: 100%;
+	border-radius: 0 3px 3px 0;
+}
+
+form select{
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+    margin-top: 2%;
+	width: 100%;
+	border-radius: 0 3px 3px 0;
+}
+form textarea {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 150px;
+	min-height: 50px;
+	font-size: 18px;
+	line-height: 18px;
+	vertical-align: top;
+    margin-top: 2%;
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	border: none;
+}
+
+a input[type="submit"]:hover,
+form input[type="submit"]:hover{
+	background: #a22da2;
+}
+
+.boton,
+form input[type="submit"]{
+    margin-left: 35%;
+    margin-top: 05%;
+	padding: 15px;
+	background:  #111B54;
+	color:#E1E9FA;
+	font-size: 1em;
+	float: center;
+	cursor: pointer;
+    border-radius: 10px;
+    
+}
+a input[type="submit"]{
+	box-shadow: 0px 0px 0px 1px #fff;
+	background:  #111B54;
+	color:#E1E9FA;
+	margin: auto;
+	width: 200px;
+	height: 70px;
+	font-size: auto;
+	text-align: center;
+	
+}
